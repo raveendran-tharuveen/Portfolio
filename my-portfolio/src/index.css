@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --ring: 0 0% 100%; }
+body { @apply bg-neutral-950 text-neutral-100; }
+a { @apply underline underline-offset-4 decoration-neutral-500 hover:decoration-neutral-300; }

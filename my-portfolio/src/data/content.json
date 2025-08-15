@@ -1,0 +1,14 @@
+{
+    "name": "Tharuveen Raveendran",
+    "tagline": "Software Engineer  • React | Python | Java",
+    "about": "Computer Engineering Graduate at York University with experience in full-stack development, API integrations, and logistics tech. Currently seeking software engineering opportunities.",
+    "headline_links": [
+        { "label": "Github", "href": "https://github.com/raveendran-tharuveen" },
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/tharuveen-raveendran/" },
+        { "label": "Resume", "href": "/resume.pdf" }
+    ],
+
+    "programming_languages": ["Java", "Python", "TypeScript", "C", "C++", "C#", "SQL", "Javascript", "HTML", "CSS", "Bash", "Verilog", "SystemVerilog", "Arduino"],
+    "Frameworks": ["React", "Next.js", "Tailwind CSS", "FastAPI", "Shadcn/ui", "Google Cloud (OAuth, Maps)"],
+    "Tools": ["Git/Github", "Docker", "PostgreSQL/SQLite", "Supabase", "MQTT", "NFC", "JUnit", "Vercel", "JWT Auth"]
+}
