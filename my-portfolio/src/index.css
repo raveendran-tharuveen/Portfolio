@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --ring: 0 0% 100%; }
-body { @apply bg-neutral-950 text-neutral-100; }
-a { @apply underline underline-offset-4 decoration-neutral-500 hover:decoration-neutral-300; }
+/* you can keep your existing :root here if you want, but we're hardcoding accent utility classes for instant color */
+
+@layer components {
+  /* Accent button used for CTAs */
+  .btn-accent {
+    @apply bg-gradient-to-r from-emerald-500 to-cyan-500 text-black
+           px-4 py-2 rounded-md font-medium hover:opacity-90 transition;
+  }
+
+  /* Accent link (color + underline) */
+  .link-accent {
+    @apply text-emerald-400 hover:text-cyan-400 underline underline-offset-4;
+  }
+
+  /* Accent “chip” for skills/tech */
+  .chip {
+    @apply rounded border border-emerald-600/40 text-emerald-300
+           px-2 py-1 text-xs;
+  }
+
+  /* Card polish with hover */
+  .card {
+    @apply rounded-xl border border-neutral-800/60 bg-neutral-900/30 p-5
+           hover:border-neutral-700 transition shadow-lg;
+  }
+
+  /* Section kicker line + label */
+  .kicker {
+    @apply inline-flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-400;
+  }
+  .kicker > .dash {
+    @apply h-[1px] w-6 bg-neutral-700 inline-block;
+  }
+}
