@@ -1,8 +1,12 @@
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* you can keep your existing :root here if you want, but we're hardcoding accent utility classes for instant color */
+
+html { scroll-behavior: smooth; }
 
 @layer components {
   /* Accent button used for CTAs */
@@ -36,3 +40,20 @@
     @apply h-[1px] w-6 bg-neutral-700 inline-block;
   }
 }
+
+@layer base {
+  body {
+    @apply bg-neutral-950 text-neutral-200;
+  }
+}
+
+@keyframes caret-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.caret {
+  display: inline-block;
+  margin-left: 0.1ch;
+  animation: caret-blink 1s step-end infinite;
+}
+

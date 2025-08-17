@@ -1,7 +1,7 @@
 {
     "name": "Tharuveen Raveendran",
     "tagline": "Software Engineer  • React | Python | Java",
-    "about": "Computer Engineering Graduate at York University with experience in full-stack development, API integrations, and logistics tech. Currently seeking software engineering opportunities.",
+    "about": "Computer Engineering Graduate at York University with experience in full-stack development, API integrations, and logistics tech. I'm passionate about building scalable web and mobile applications using React, FastAPI, Java, SQL, etc. Currently seeking 2025/2026 software engineering opportunities.",
     "headline_links": [
         { "label": "Github", "href": "https://github.com/raveendran-tharuveen" },
         { "label": "LinkedIn", "href": "https://www.linkedin.com/in/tharuveen-raveendran/" },
@@ -10,5 +10,62 @@
 
     "programming_languages": ["Java", "Python", "TypeScript", "C", "C++", "C#", "SQL", "Javascript", "HTML", "CSS", "Bash", "Verilog", "SystemVerilog", "Arduino"],
     "Frameworks": ["React", "Next.js", "Tailwind CSS", "FastAPI", "Shadcn/ui", "Google Cloud (OAuth, Maps)"],
-    "Tools": ["Git/Github", "Docker", "PostgreSQL/SQLite", "Supabase", "MQTT", "NFC", "JUnit", "Vercel", "JWT Auth"]
+    "Tools": ["Git/Github", "Docker", "PostgreSQL/SQLite", "Supabase", "MQTT", "NFC", "JUnit", "Vercel", "JWT Auth"],
+
+    "roles": ["React Developer", "Full-stack Engineer", "API Builder"],
+
+    "projects": [
+        {
+        "title": "3D Printing Material Management",
+        "description": "Tracks filament inventory with real-time temp/humidity via MQTT, plus admin dashboard.",
+        "tech": ["FastAPI","Next.js","SQLite","MQTT"],
+        "repo": "https://github.com/raveendran-tharuveen/eng-4000-capstone",
+        "demo": "/demos/Team 08 Mini Capstone Day.mp4",
+        "image": "https://images.squarespace-cdn.com/content/v1/60a8596ca42a161bf6c0f763/1677882569090-KOBZVPPP0CHH9U8GCHEI/logotype_horizontal.png"
+        },
+        {
+        "title": "CovID NFC App",
+        "description": "Android/NFC app to view test results and verify Cov-ID cards; integrated Google Maps.",
+        "tech": ["Java","NFC","Android Studio","Google Maps API"],
+        "repo": "https://github.com/raveendran-tharuveen/cov-ID-yuHacks-2021",
+        "demo": "https://www.youtube.com/watch?v=0ojjfrsssGI&ab_channel=JasonTruong",
+        "image": "/images/cov_ID1.PNG"
+        }
+    ],
+
+    "experiences": [
+        {
+            "company": "Canadian Roadrunners Inc.",
+            "role": "Software Developer",
+            "location": "Toronto, ON",
+            "period": "Feb 2024 - Current",
+            "bullets": [
+                "Initiated development of a custom Transportation Management System using React, FastAPI, PostgreSQL, AWS, WebSockets, and Amazon S3, delivering features like real-time messaging, order management, and route optimization.",
+                "Applied data analysis to optimize delivery routes/schedules, reducing transit time by 70%, increasing fleet utilization by 85%.",
+                "Researched and evaluated enterprise software solutions to identify scalable platforms for dispatching, order management, and real-time communication, informing build-vs-buy decisions."
+            ]
+        },
+
+        {
+            "company": "Pantheon Prototyping",
+            "role": "Software Developer",
+            "location": "Toronto, ON",
+            "period": "Sept 2024 - Apr 2025",
+            "bullets": [
+                "Collaborated in a 6-member team to architect and deploy a full-stack 3D printing material management platform using FastAPI (Python), Next.js (TypeScript/React), and PostgreSQL, boosting inventory tracking efficiency by 50%.",
+                "Engineered secure RESTful APIs with Google OAuth authentication and integrated MQTT-based real-time environmental monitoring, enabling proactive control over temperature and humidity to extend material lifespan."
+            ]
+        },
+
+        {
+            "company": "Kumon Canada Inc",
+            "role": "Teaching Assistant",
+            "location": "Toronto, ON",
+            "period": "Jan 2018 - June 2025",
+            "bullets": [
+                "Collaborated with a team of tutors to develop personalized problem-solving strategies for over 100 students aged 6–18, improving comprehension in Math and English."
+            ]
+        }
+    ]
 }
+
