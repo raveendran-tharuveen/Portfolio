@@ -10,9 +10,6 @@ function App() {
 
   return (
     <>
-      <div className="text-3xl text-emerald-400 p-4 rounded-lg border border-emerald-400">
-        Tailwind is working!
-      </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -21,7 +18,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Welcome!</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
